@@ -1,13 +1,13 @@
-//Variables
-//Colores
-$principal : #33c3f0; 
-$blanco: #ffffff;
-$gris: #e1e1e1
+@import 'variables';
 
+body{
+    font-family: $fuente_principal;
+}
 
 .contenedor{
     max-width: 1100px;
     margin: 0 auto;
+    
 }
 
 .oculto{
