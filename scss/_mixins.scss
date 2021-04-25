@@ -14,3 +14,10 @@
  @mixin box-sizing($box-model) {
      box-sizing: $box-model;
  }
+
+ @mixin background-image($imagen) {
+    background-image: url($imagen);
+    background-repeat: no-repeat;
+    background-position: center center;
+     
+ }
