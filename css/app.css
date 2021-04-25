@@ -1,6 +1,17 @@
 /*Variables*/
 /*Fuentes*/
 /*Colores*/
+/*Botones*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -55,4 +66,5 @@ body {
   text-align: center;
   color: #ffffff;
   margin-top: 1rem;
+  text-transform: uppercase;
 }

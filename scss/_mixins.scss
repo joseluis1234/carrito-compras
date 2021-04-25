@@ -1,0 +1,16 @@
+ /*Botones*/
+
+ @mixin boton($color) {
+    background: $color;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: $blanco;
+    margin-top: 1rem;
+    text-transform: uppercase;
+ }
+
+ @mixin box-sizing($box-model) {
+     box-sizing: $box-model;
+ }
